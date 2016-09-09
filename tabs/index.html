@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <style>
+    .tab-content {
+      display: none;
+      height: 300px;
+    }
+    .tab-content.active {
+      display: block;
+      border: 1px solid grey;
+    }
+    .tabs button {
+      padding: 5px 10px;
+      border-radius: none;
+    }
+    button:focus {
+      outline: none;
+    }
+  </style>
+  <body>
+    <div id="wrapper">
+      <div data-tabname="one" class="tab-content">Tab one</div>
+      <div data-tabname="two" class="tab-content">Tab two</div>
+      <div data-tabname="three" class="tab-content">Tab three</div>
+    </div>
+
+    <script src="tabs.js"></script>
+  </body>
+</html>
