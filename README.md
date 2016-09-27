@@ -1,3 +1,3 @@
 # JavaScript Sandbox #
 
-This is where I keep the simple and random JavaScript programs that I have had the inclination to build.
+These are my original solutions to some of the [Eloquent JavaScript](http://eloquentjavascript.net/) exercises.
